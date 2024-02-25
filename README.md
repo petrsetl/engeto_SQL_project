@@ -1,3 +1,4 @@
+<!-- uživatelské jméno na Discord: petrsetl -->
 # SQL_project_Petra_Setlova
 Vypracování SQL projektu Engeto (DA 16_01_2024)
 
