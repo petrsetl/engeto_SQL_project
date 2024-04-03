@@ -10,8 +10,8 @@
 
 CREATE OR REPLACE TABLE t_Petra_Setlova_project_SQL_secondary_final as
 SELECT 
-	e.country ,
-	e.`year` ,
+	e.country,
+	e.`year`,
 	e.GDP 
 FROM economies e 
 JOIN countries c 

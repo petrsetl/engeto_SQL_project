@@ -1,7 +1,7 @@
 
 
 -- zjistím ceny a mzdy v letech
-CREATE OR REPLACE VIEW v_petra_setlova_prices_vs_wages as
+CREATE OR REPLACE VIEW v_petra_setlova_prices_vs_wages AS
 SELECT 
 	ps.`year`  ,
 	round(avg(ps.prices), 2) AS prices ,
@@ -11,7 +11,7 @@ GROUP BY ps.`year`;
 
 
 -- zjistím percentualni rozdíl cen a mezd v letech
-CREATE OR REPLACE VIEW v_petra_setlova_diff_prices_wages as
+CREATE OR REPLACE VIEW v_petra_setlova_diff_prices_wages AS
 SELECT 
 	vps.`year`,
 	round(((vps.prices - vps2.prices) / vps2.prices * 100), 2) AS growth_prices,

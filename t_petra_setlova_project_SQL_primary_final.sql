@@ -2,7 +2,7 @@
 
 -- vytvoření PRIMARY TABLE  pro další práci 
 
-CREATE OR REPLACE TABLE t_Petra_Setlova_project_SQL_primary_final as
+CREATE OR REPLACE TABLE t_Petra_Setlova_project_SQL_primary_final AS
 SELECT 
 	cpc.name AS food_category,
 	cp.value AS prices,
